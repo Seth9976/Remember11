@@ -1,0 +1,14 @@
+// 函数: sub_4021e0
+// 地址: 0x4021e0
+// 来自: E:/torrent/Apollo/R11/R11.exe.bndb
+
+int32_t ecx = arg1 & 0xfff
+int32_t eax_1
+int32_t edx
+edx:eax_1 = sx.q(ecx)
+int32_t ecx_1 = ecx & 0x80000007
+
+if (ecx_1 s< 0)
+    ecx_1 = ((ecx_1 - 1) | 0xfffffff8) + 1
+
+return zx.d(*(((eax_1 + (edx & 7)) s>> 3) + 0x2b5cee1)) u>> ecx_1.b & 1

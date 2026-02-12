@@ -1,0 +1,45 @@
+// 函数: sub_43d850
+// 地址: 0x43d850
+// 来自: E:/torrent/Apollo/R11/R11.exe.bndb
+
+long double x87_r7_2 = fconvert.t(arg9) / fconvert.t(arg2) * fconvert.t(2047f)
+sub_45b930(arg1 + 0x80)
+long double x87_r7_3 = fconvert.t(arg2)
+*(arg1 + 0x80) = fconvert.s(x87_r7_3)
+*(arg1 + 0x94) = fconvert.s(x87_r7_3)
+long double x87_r7_4 = float.t(0)
+*(arg1 + 0xa8) = fconvert.s(x87_r7_4)
+*(arg1 + 0xbc) = fconvert.s(x87_r7_4)
+long double x87_r7_5 = float.t(1)
+*(arg1 + 0xb8) = fconvert.s(x87_r7_5)
+*(arg1 + 0xac) = fconvert.s(x87_r7_5)
+float var_40
+sub_45b930(&var_40)
+var_40 = fconvert.s(fconvert.t(arg3))
+float var_2c = fconvert.s(fconvert.t(arg4))
+long double x87_r7_8 = fconvert.t(arg10)
+long double x87_r5 = fconvert.t(arg9)
+long double x87_r6_1 = x87_r7_8 - x87_r5
+long double x87_r4 = fconvert.t(arg8)
+long double x87_r2 = fconvert.t(arg7)
+float var_18 = fconvert.s((x87_r4 - x87_r2) * x87_r5 * x87_r7_8 / x87_r6_1)
+float var_10 = fconvert.s(fconvert.t(arg5))
+float var_c = fconvert.s(fconvert.t(arg6))
+long double x87_r6_4 = x87_r7_8 * x87_r2 - x87_r5 * x87_r4
+float var_8 = fconvert.s(x87_r6_4 / x87_r6_4)
+sub_45ba30(arg1 + 0x80, &var_40, arg1 + 0x80)
+sub_45b930(arg1 + 0x100)
+long double x87_r7_12 = fconvert.t(arg9)
+long double x87_r6_6 = x87_r7_12 + x87_r7_12
+long double x87_r5_3 = fconvert.t(fconvert.s(x87_r7_2))
+*(arg1 + 0x100) = fconvert.s(x87_r6_6 / (x87_r5_3 - fneg(x87_r5_3)))
+long double x87_r5_6 = fconvert.t(fconvert.s(x87_r7_2))
+*(arg1 + 0x114) = fconvert.s(x87_r6_6 / (x87_r5_6 - fneg(x87_r5_6)))
+long double x87_r5_8 = fconvert.t(arg10)
+*(arg1 + 0x128) = fconvert.s((x87_r7_12 + x87_r5_8) / fconvert.t(fconvert.s(x87_r6_1)))
+long double x87_r6_13 = x87_r7_12 * x87_r5_8 * fconvert.t(-2f)
+*(arg1 + 0x138) = fconvert.s(x87_r6_13 / x87_r6_13)
+*(arg1 + 0x12c) = fconvert.s(float.t(1))
+*(arg1 + 0x13c) = fconvert.s(float.t(0))
+sub_45ba30(arg1 + 0xc0, arg1 + 0x80, arg1 + 0x40)
+return sub_45ba30(arg1 + 0x140, arg1 + 0x100, arg1 + 0x40)

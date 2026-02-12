@@ -1,0 +1,17 @@
+// 函数: sub_47ff40
+// 地址: 0x47ff40
+// 来自: E:/torrent/Apollo/R11/R11.exe.bndb
+
+void* ecx
+
+if (arg1 == 0)
+    ecx = nullptr
+else
+    ecx = arg1 + 4
+
+sub_47fd00(ecx)
+
+if ((arg2 & 1) != 0)
+    j_sub_4813df(arg1)
+
+return arg1

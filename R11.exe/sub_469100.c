@@ -1,0 +1,23 @@
+// 函数: sub_469100
+// 地址: 0x469100
+// 来自: E:/torrent/Apollo/R11/R11.exe.bndb
+
+int32_t var_4_1 = 0xffffffff
+int32_t (* var_8)(void* arg1) = sub_499878
+TEB* fsbase
+struct _EXCEPTION_REGISTRATION_RECORD* ExceptionList = fsbase->NtTib.ExceptionList
+struct std::exception::VTable** var_10 = arg1
+int32_t __saved_edi
+int32_t var_1c = __security_cookie ^ &__saved_edi
+fsbase->NtTib.ExceptionList = &ExceptionList
+struct std::exception::std::runtime_error::VTable** result = arg1
+struct std::exception::std::runtime_error::VTable** result_1 = result
+sub_481e9c(arg1, arg2)
+*result = &std::runtime_error::`vftable'{for `std::exception'}
+result[9] = 0xf
+result[8] = 0
+int32_t var_4 = 0
+result[4].b = 0
+sub_44b8e0(&result[3], arg2 + 0xc, nullptr, 0xffffffff)
+fsbase->NtTib.ExceptionList = ExceptionList
+return result
